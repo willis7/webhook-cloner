@@ -22,6 +22,7 @@ func main() {
 		panic(lookErr)
 	}
 
+	http.HandleFunc("/gitea", gitea(refs))
 	http.HandleFunc("/gitlab", gitlab(refs))
 	http.HandleFunc("/github", github(refs))
 	http.ListenAndServe(":4567", nil)

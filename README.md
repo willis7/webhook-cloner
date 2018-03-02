@@ -6,6 +6,7 @@ This code has a single purpose; receive a push notification via webhook, match a
 
 * Github
 * Gitlab
+* Gitea
 
 ## Development
 
