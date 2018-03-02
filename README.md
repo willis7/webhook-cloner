@@ -23,6 +23,8 @@ This code has a single purpose; receive a push notification via webhook, match a
 
 When adding a webhook, the app will only respond to a url which contains the providers name as the uri. Example, `http://your-endpoint/github`
 
-## Limitations
+## TODO
 
-Currently, the app only clones a single repo per provider.
+* [ ] specify deployment directory
+* [ ] multiple repos
+* [ ] secure/private clone
