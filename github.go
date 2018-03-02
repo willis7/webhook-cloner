@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-// Github webhook payload
+// Github push webhook payload
 type Github struct {
 	Ref     string      `json:"ref"`
 	Before  string      `json:"before"`
